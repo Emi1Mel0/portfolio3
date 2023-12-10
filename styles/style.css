@@ -1,0 +1,169 @@
+:root {
+  --maincolor: ();
+}
+
+html {
+  font-size: 16;
+}
+
+#services,
+#clients,
+#blog {
+  background-color: #f4f4f4;
+}
+
+/* header */
+
+header {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.homelayer1 {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.homecont {
+}
+
+/* about section */
+
+.percent1::after {
+  content: "";
+  height: 1rem;
+  width: 50%;
+  background-color: #e2e2e2;
+  position: absolute;
+}
+
+.aboutend .contbtn {
+  border: solid 0.1rem black;
+}
+
+.aboutend .downbtn {
+  border: solid 0.1rem rgb(255, 255, 255);
+}
+
+.aboutend .downbtn {
+  border: solid 0.1rem rgb(255, 255, 255);
+}
+
+/* services section */
+
+.sericon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.sercont:hover .sericon {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* contact section  */
+
+.conthead,
+.serhead {
+  position: relative;
+}
+
+.contimg {
+  width: 15%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: -01;
+  color: #e2e2e2;
+  line-height: 0.21%;
+  transform: translateX(-50%);
+  background-repeat: repeat !important;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+#contact input {
+  background-color: #f4f4f4;
+  border: 0;
+}
+
+#contact textarea {
+  background-color: #f4f4f4;
+  border: 0;
+}
+
+.contactbtn button {
+  border: #1c1c1c solid 0.1rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+#contact .icon {
+  background-color: #f4f4f4;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+#contact .icon:hover {
+  background-color: #000000;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contactbtn button:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ffffff !important;
+}
+
+/* footer */
+
+footer {
+  color: #748182;
+  background-color: #1c1c1c;
+}
